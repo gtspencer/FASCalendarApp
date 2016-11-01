@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WFCalendarApp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="lastSelectedDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="lastRetrieval" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">07/14/2016 12:13:00</Value>
+    </Setting>
+    <Setting Name="lastFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="lastDateSelectedStart" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2016-07-18</Value>
+    </Setting>
+    <Setting Name="lastDateSelectedEnd" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2016-07-18</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
