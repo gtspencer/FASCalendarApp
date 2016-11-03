@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AreYouSure));
             this.yesButton = new System.Windows.Forms.Button();
             this.noButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -35,7 +36,7 @@
             // 
             // yesButton
             // 
-            this.yesButton.Location = new System.Drawing.Point(81, 227);
+            this.yesButton.Location = new System.Drawing.Point(88, 227);
             this.yesButton.Name = "yesButton";
             this.yesButton.Size = new System.Drawing.Size(108, 23);
             this.yesButton.TabIndex = 0;
@@ -70,6 +71,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.noButton);
             this.Controls.Add(this.yesButton);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AreYouSure";
             this.Text = "Are You Sure?";
             this.Load += new System.EventHandler(this.AreYouSure_Load);

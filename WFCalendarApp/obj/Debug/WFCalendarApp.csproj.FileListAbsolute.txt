@@ -211,3 +211,4 @@ O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.exe
 O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.pdb
 O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csprojResolveAssemblyReference.cache
 O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.Forms.AreYouSure.resources
+O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.GroupEdit.resources

@@ -25,6 +25,7 @@ namespace WFCalendarApp
         private List<String> saveGroup;
         private List<List<String>> saveGroupData;
         private String groupNameToSave;
+        private String editGroup;
         System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
 
         public GroupSearch(Dictionary<Employee, IList<GCEvent>> eventsDict,
@@ -36,6 +37,8 @@ namespace WFCalendarApp
             this.timePeriodsDict = timePeriodsDict;
             this.start = start;
             this.end = end;
+            editButton.Hide();
+            deleteButton.Hide();
             dateText.Text = "Select individual employees or select a saved group" + Environment.NewLine +  start + "  to  " + end;
             textBox3.Text = "Enter Group Name";
             saveGroup = new List<String>();
@@ -84,7 +87,13 @@ namespace WFCalendarApp
                             {
                                 if (name.Equals(tempEmp.Key.Name))
                                 {
-                                    selectedGroup.Add(tempEmp.Key, tempEmp.Value);
+                                    try
+                                    {
+                                        selectedGroup.Add(tempEmp.Key, tempEmp.Value);
+                                    } catch (Exception ex)
+                                    {
+                                        MessageBox.Show("Oops! Something went wrong with the group." + Environment.NewLine + "Please try recreate the group and try again.");
+                                    }
                                 }
                             }
                         }
@@ -174,6 +183,7 @@ namespace WFCalendarApp
                 saveGroupData.Add(saveGroup);
                 UpdateHistory();
                 textBox3.Text = "Group Saved!";
+                groupName.Text = "";
                 timer.Interval = 3000;
                 timer.Tick += new EventHandler(timer_Tick);
                 timer.Start();
@@ -184,16 +194,21 @@ namespace WFCalendarApp
         {
             if (comboBox1.SelectedItem != null && (String)comboBox1.SelectedItem != "(none)")
             {
+                checkedListBox.ClearSelected();
                 checkedListBox.Enabled = false;
                 groupName.Enabled = false;
                 saveGroupButton.Enabled = false;
                 prefabSearch = true;
+                editButton.Show();
+                deleteButton.Show();
             } else
             {
                 checkedListBox.Enabled = true;
                 groupName.Enabled = true;
                 saveGroupButton.Enabled = true;
                 prefabSearch = false;
+                editButton.Hide();
+                deleteButton.Hide();
             }
         }
 
@@ -212,6 +227,39 @@ namespace WFCalendarApp
         {
             textBox3.Text = "Enter Group Name";
         }
+
+        private void editButton_Click(object sender, EventArgs e)
+        {
+            String name = comboBox1.SelectedItem.ToString();
+            editGroup = name;
+            (new GroupEdit(timePeriodsDict, name)).Show();
+            comboBox1.SelectedItem = null;
+        }
+
+        private void deleteButton_Click(object sender, EventArgs e)
+        {
+            List<List<String>> groupss = Properties.Settings.Default.savedGroup;
+            String name = comboBox1.SelectedItem.ToString();
+            foreach (List<String> group in groupss)
+            {
+                if (group[0].Equals(name))
+                {
+                    Properties.Settings.Default.savedGroup.Remove(group);
+                    Properties.Settings.Default.Save();
+                    comboBox1.Items.Remove(comboBox1.SelectedItem);
+                    comboBox1.SelectedItem = null;
+                    MessageBox.Show("Group " + group[0] + " successfully deleted.");
+                    checkedListBox.Enabled = true;
+                    groupName.Enabled = true;
+                    saveGroupButton.Enabled = true;
+                    prefabSearch = false;
+                    editButton.Hide();
+                    deleteButton.Hide();
+                    return;
+                }
+            }
+        }
+
         //--------------------------------Pretty much useless, freaks out if you delete it though--------------------------------
         private void GroupSearch_Load(object sender, EventArgs e)
         {
@@ -221,6 +269,11 @@ namespace WFCalendarApp
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkedListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

@@ -36,6 +36,8 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.groupName = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.editButton = new System.Windows.Forms.Button();
+            this.deleteButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // checkedListBox
@@ -46,10 +48,11 @@
             this.checkedListBox.Name = "checkedListBox";
             this.checkedListBox.Size = new System.Drawing.Size(356, 319);
             this.checkedListBox.TabIndex = 1;
+            this.checkedListBox.SelectedIndexChanged += new System.EventHandler(this.checkedListBox_SelectedIndexChanged);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 488);
+            this.button1.Location = new System.Drawing.Point(12, 489);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(356, 53);
             this.button1.TabIndex = 2;
@@ -70,9 +73,9 @@
             // 
             // saveGroupButton
             // 
-            this.saveGroupButton.Location = new System.Drawing.Point(242, 408);
+            this.saveGroupButton.Location = new System.Drawing.Point(193, 408);
             this.saveGroupButton.Name = "saveGroupButton";
-            this.saveGroupButton.Size = new System.Drawing.Size(126, 20);
+            this.saveGroupButton.Size = new System.Drawing.Size(175, 20);
             this.saveGroupButton.TabIndex = 5;
             this.saveGroupButton.Text = "Save Current Selection";
             this.saveGroupButton.UseVisualStyleBackColor = true;
@@ -81,7 +84,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(12, 461);
+            this.comboBox1.Location = new System.Drawing.Point(12, 462);
             this.comboBox1.MaxDropDownItems = 17;
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(356, 21);
@@ -108,11 +111,33 @@
             this.textBox3.Text = "New Group Name";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // editButton
+            // 
+            this.editButton.Location = new System.Drawing.Point(192, 436);
+            this.editButton.Name = "editButton";
+            this.editButton.Size = new System.Drawing.Size(175, 20);
+            this.editButton.TabIndex = 12;
+            this.editButton.Text = "Edit Group";
+            this.editButton.UseVisualStyleBackColor = true;
+            this.editButton.Click += new System.EventHandler(this.editButton_Click);
+            // 
+            // deleteButton
+            // 
+            this.deleteButton.Location = new System.Drawing.Point(12, 436);
+            this.deleteButton.Name = "deleteButton";
+            this.deleteButton.Size = new System.Drawing.Size(175, 20);
+            this.deleteButton.TabIndex = 13;
+            this.deleteButton.Text = "Delete Group";
+            this.deleteButton.UseVisualStyleBackColor = true;
+            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
+            // 
             // GroupSearch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(380, 553);
+            this.ClientSize = new System.Drawing.Size(379, 554);
+            this.Controls.Add(this.deleteButton);
+            this.Controls.Add(this.editButton);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.groupName);
             this.Controls.Add(this.comboBox1);
@@ -137,5 +162,7 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox groupName;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button editButton;
+        private System.Windows.Forms.Button deleteButton;
     }
 }
