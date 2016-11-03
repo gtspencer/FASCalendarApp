@@ -159,15 +159,6 @@ O:\Spencer Obsitnik\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.exe.conf
 O:\Spencer Obsitnik\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csproj.ResolveComReference.cache
 O:\Spencer Obsitnik\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.exe
 O:\Spencer Obsitnik\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.pdb
-O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csprojResolveAssemblyReference.cache
-O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csproj.ResolveComReference.cache
-O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.GroupSearch.resources
-O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.JobChartForm.resources
-O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.EmployeeDataForm.resources
-O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.MainForm.resources
-O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.ChartForm.resources
-O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.Properties.Resources.resources
-O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csproj.GenerateResource.Cache
 O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\bin\Debug\CalendarTemplate.xltx
 O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.exe.config
 O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.exe.manifest
@@ -206,54 +197,17 @@ O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Platf
 O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\bin\Debug\log4net.xml
 O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\bin\Debug\Newtonsoft.Json.xml
 O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\bin\Debug\Zlib.Portable.xml
+O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csproj.ResolveComReference.cache
+O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.GroupSearch.resources
+O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.JobChartForm.resources
+O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.EmployeeDataForm.resources
+O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.MainForm.resources
+O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.ChartForm.resources
+O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.Properties.Resources.resources
+O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csproj.GenerateResource.Cache
 O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.exe.manifest
 O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.application
 O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.exe
 O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.pdb
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\CalendarTemplate.xltx
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.exe.manifest
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.application
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.exe
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.pdb
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\BouncyCastle.Crypto.dll
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Admin.Directory.directory_v1.dll
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.dll
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.PlatformServices.dll
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Calendar.v3.dll
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Core.dll
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.dll
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.PlatformServices.dll
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\LiveCharts.dll
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\LiveCharts.WinForms.dll
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\LiveCharts.Wpf.dll
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\log4net.dll
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Newtonsoft.Json.dll
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Zlib.Portable.dll
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\BouncyCastle.Crypto.pdb
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.pdb
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.xml
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Admin.Directory.directory_v1.pdb
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Admin.Directory.directory_v1.xml
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.pdb
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.xml
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.PlatformServices.pdb
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.PlatformServices.xml
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Calendar.v3.pdb
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Calendar.v3.xml
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Core.pdb
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Core.xml
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.PlatformServices.pdb
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.PlatformServices.xml
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\log4net.xml
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Newtonsoft.Json.xml
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\bin\Debug\Zlib.Portable.xml
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csprojResolveAssemblyReference.cache
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.GroupSearch.resources
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.JobChartForm.resources
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.EmployeeDataForm.resources
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.MainForm.resources
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.ChartForm.resources
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.Properties.Resources.resources
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csproj.GenerateResource.Cache
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.exe.manifest
-C:\Users\obss\Desktop\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.application
+O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csprojResolveAssemblyReference.cache
+O:\Spencer Obsitnik\_dev\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.Forms.AreYouSure.resources

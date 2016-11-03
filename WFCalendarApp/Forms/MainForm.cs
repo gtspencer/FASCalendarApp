@@ -16,9 +16,9 @@ namespace WFCalendarApp {
     public partial class MainForm : Form {
 
         private string directory;
-        private Boolean looking;
-        private Boolean inOfficeSearch;
-        private Boolean groupSearch;
+        private bool looking;
+        private bool inOfficeSearch;
+        private bool groupSearch;
 
         private DateTime start;
         private DateTime end;
@@ -249,7 +249,7 @@ namespace WFCalendarApp {
             Properties.Settings.Default.lastDateSelectedEnd = end;
             Properties.Settings.Default.Save();
         }
-
+        
 
         //----------------------------------------------------------Mostly Useless------------------------------------------------------------------------
         private void MainForm_Load(object sender, EventArgs e)

@@ -13,19 +13,19 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>O:\Spencer Obsitnik\Calendar\</PublishUrl>
+    <PublishUrl>\\fileserver\shares\Estimation\FASt_CalendarApp\</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\fileserver\shares\Estimation\FASt_CalendarApp\</InstallUrl>
     <WebPage>publish.htm</WebPage>
-    <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>164</ApplicationRevision>
+    <ApplicationRevision>168</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -151,6 +151,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\AreYouSure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AreYouSure.Designer.cs">
+      <DependentUpon>AreYouSure.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\GroupSearch.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -192,6 +198,9 @@
     <Compile Include="Logic\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\TimePeriod.cs" />
+    <EmbeddedResource Include="Forms\AreYouSure.resx">
+      <DependentUpon>AreYouSure.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\GroupSearch.resx">
       <DependentUpon>GroupSearch.cs</DependentUpon>
     </EmbeddedResource>

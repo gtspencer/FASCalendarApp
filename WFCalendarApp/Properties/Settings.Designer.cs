@@ -64,6 +64,21 @@ namespace WFCalendarApp.Properties {
 
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public List<List<String>> savedGroup
+        {
+            get
+            {
+                return ((List<List<string>>)(this["savedGroup"]));
+            }
+            set
+            {
+                this["savedGroup"] = value;
+            }
+        }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("2016-07-18")]
         public global::System.DateTime lastDateSelectedStart {
             get {

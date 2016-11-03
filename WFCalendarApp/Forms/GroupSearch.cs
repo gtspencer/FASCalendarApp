@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace WFCalendarApp
 {
@@ -14,14 +15,17 @@ namespace WFCalendarApp
     {
 
         private List<String> coOps = new List<String>();
-
         private Dictionary<Employee, List<TimePeriod>> selectedGroup;
 
         private Dictionary<Employee, IList<GCEvent>> eventsDict;
         private Dictionary<Employee, List<TimePeriod>> timePeriodsDict;
         private DateTime start;
         private DateTime end;
-        private bool coOpSearch;
+        private bool prefabSearch;
+        private List<String> saveGroup;
+        private List<List<String>> saveGroupData;
+        private String groupNameToSave;
+        System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
 
         public GroupSearch(Dictionary<Employee, IList<GCEvent>> eventsDict,
         Dictionary<Employee, List<TimePeriod>> timePeriodsDict, DateTime start,
@@ -32,23 +36,24 @@ namespace WFCalendarApp
             this.timePeriodsDict = timePeriodsDict;
             this.start = start;
             this.end = end;
-            dateText.Text = start + "  to  " + end;
+            dateText.Text = "Select individual employees or select a saved group" + Environment.NewLine +  start + "  to  " + end;
+            textBox3.Text = "Enter Group Name";
+            saveGroup = new List<String>();
 
-
-            //Hard code co ops here
-            coOps.Add("Spencer Obsitnik");
-            coOps.Add("Lovic Ryals");
-            coOps.Add("Oreofe Aderibigbe");
-            coOps.Add("Cody Huggins");
-            coOps.Add("Nick Robish");
-            coOps.Add("Peter Giavotto");
-
+            saveGroupData = Properties.Settings.Default.savedGroup;
             List<Employee> data = new List<Employee>();
             foreach (KeyValuePair<Employee, List<TimePeriod>> temp in timePeriodsDict)
             {
                 data.Add(temp.Key);
             }
+
+            foreach (List<String> list in saveGroupData)
+            {
+                String name = list[0];
+                comboBox1.Items.Add(name);
+            }
             checkedListBox.DataSource = data;
+            comboBox1.Items.Add("(none)");
             selectedGroup = new Dictionary<Employee, List<TimePeriod>>();
         }
 
@@ -65,21 +70,27 @@ namespace WFCalendarApp
                 return;
             }
 
-            //returns only co ops in coOp list
-            if (coOpSearch)
+            //returns only group specified from list
+            if (prefabSearch)
             {
-                title = "Co Op Calendar -- from " + start + " to " + end;
-                foreach (KeyValuePair<Employee, List<TimePeriod>> tempEmp in timePeriodsDict)
+                title = comboBox1.SelectedItem + " Group Calendar -- from " + start + " to " + end;
+                foreach (List<String> group in saveGroupData)
                 {
-                    foreach (String str in coOps)
+                    if (group[0].Equals(comboBox1.SelectedItem))
                     {
-                        if (str.Equals(tempEmp.Key.Name))
+                        foreach (String name in group)
                         {
-                            //compares iterated employee list from Google to hard coded co op list
-                            selectedGroup.Add(tempEmp.Key, tempEmp.Value);
+                            foreach (KeyValuePair<Employee, List<TimePeriod>> tempEmp in timePeriodsDict)
+                            {
+                                if (name.Equals(tempEmp.Key.Name))
+                                {
+                                    selectedGroup.Add(tempEmp.Key, tempEmp.Value);
+                                }
+                            }
                         }
                     }
                 }
+
             } else
             //returns everyone else
             {
@@ -113,33 +124,105 @@ namespace WFCalendarApp
                 errorMessage += "The start date must come before the end date!" + Environment.NewLine;
             }
 
-            if (checkedListBox.CheckedItems.Count == 0 && !coOpSearch)
+            if (checkedListBox.CheckedItems.Count == 0 && !prefabSearch)
             {
                 errorMessage += "There are no employees selected!" + Environment.NewLine;
             }
             return errorMessage;
         }
 
-        //Called when co op checkbox changed
-        //Disables checkbox
-        private void coOpOnly_CheckedChanged(object sender, EventArgs e)
+        private bool checkSaveName()
         {
-            if (coOpOnly.Checked) {
-                coOpSearch = true;
-                checkedListBox.Enabled = false;
-            } else
+            bool save = true;
+            foreach (String str in comboBox1.Items)
             {
-                coOpSearch = false;
-                checkedListBox.Enabled = true;
+                if (str.Equals(groupName.Text))
+                {
+                    save = false;
+                }
+            }
+            return save;
+        }
+
+        private void saveGroupButton_Click(object sender, EventArgs e)
+        {
+            if (checkedListBox.CheckedItems.Count <= 0)
+            {
+                MessageBox.Show("Please select employees to include in your new group!");
+                return;
+            } else if (groupNameToSave == null)
+            {
+               MessageBox.Show("Please name the group you would like to save!");
+                return;
+            } else if (!checkSaveName())
+            {
+                MessageBox.Show("Please choose a unique name to save!");
+                return;
+            }
+            else
+            {
+                saveGroup.Clear();
+                saveGroup.Add(groupNameToSave); //first index is name of group -- makes it easier to find
+                foreach (Employee emp in checkedListBox.CheckedItems)
+                {
+                    if (!saveGroup.Contains(emp.Name))
+                    {
+                        saveGroup.Add(emp.Name);
+                    }
+                }
+                comboBox1.Items.Add(groupNameToSave);
+                saveGroupData.Add(saveGroup);
+                UpdateHistory();
+                textBox3.Text = "Group Saved!";
+                timer.Interval = 3000;
+                timer.Tick += new EventHandler(timer_Tick);
+                timer.Start();
             }
         }
 
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedItem != null && (String)comboBox1.SelectedItem != "(none)")
+            {
+                checkedListBox.Enabled = false;
+                groupName.Enabled = false;
+                saveGroupButton.Enabled = false;
+                prefabSearch = true;
+            } else
+            {
+                checkedListBox.Enabled = true;
+                groupName.Enabled = true;
+                saveGroupButton.Enabled = true;
+                prefabSearch = false;
+            }
+        }
+
+        private void groupName_TextChanged(object sender, EventArgs e)
+        {
+            groupNameToSave = groupName.Text;
+        }
+
+        private void UpdateHistory()
+        {
+            Properties.Settings.Default.savedGroup = saveGroupData;
+            Properties.Settings.Default.Save();
+        }
+
+        void timer_Tick(Object sender, EventArgs e)
+        {
+            textBox3.Text = "Enter Group Name";
+        }
         //--------------------------------Pretty much useless, freaks out if you delete it though--------------------------------
         private void GroupSearch_Load(object sender, EventArgs e)
         {
         }
         private void dateText_TextChanged(object sender, EventArgs e)
         {
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

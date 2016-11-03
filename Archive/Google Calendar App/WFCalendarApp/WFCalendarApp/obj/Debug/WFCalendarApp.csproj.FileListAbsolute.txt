@@ -1,0 +1,110 @@
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\CalendarTemplate.xltx
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.exe.config
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.exe.manifest
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.application
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.exe
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.pdb
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Admin.Directory.directory_v1.dll
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.dll
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Calendar.v3.dll
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Core.dll
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.dll
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\GoogleCalendarComm.dll
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\log4net.dll
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Zlib.Portable.dll
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\BouncyCastle.Crypto.pdb
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.pdb
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.xml
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Admin.Directory.directory_v1.pdb
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Admin.Directory.directory_v1.xml
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.xml
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Calendar.v3.pdb
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Calendar.v3.xml
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Core.pdb
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Core.xml
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.PlatformServices.pdb
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.PlatformServices.xml
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\GoogleCalendarComm.pdb
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\log4net.xml
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\Zlib.Portable.xml
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csprojResolveAssemblyReference.cache
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csproj.ResolveComReference.cache
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.Properties.Resources.resources
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csproj.GenerateResource.Cache
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.exe.manifest
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.application
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.exe
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.pdb
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.MainForm.resources
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\LiveCharts.dll
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.ChartForm.resources
+C:\Users\betr\Documents\Visual Studio 2015\Projects\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.EmployeeDataForm.resources
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.exe.config
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csproj.ResolveComReference.cache
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.exe
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.pdb
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csprojResolveAssemblyReference.cache
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.EmployeeDataForm.resources
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.MainForm.resources
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.ChartForm.resources
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.Properties.Resources.resources
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csproj.GenerateResource.Cache
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\CalendarTemplate.xltx
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.exe.manifest
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.application
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.exe
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.pdb
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Admin.Directory.directory_v1.dll
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.dll
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Calendar.v3.dll
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Core.dll
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.dll
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\LiveCharts.dll
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\log4net.dll
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Zlib.Portable.dll
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\BouncyCastle.Crypto.pdb
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.pdb
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.xml
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Admin.Directory.directory_v1.pdb
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Admin.Directory.directory_v1.xml
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.xml
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Calendar.v3.pdb
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Calendar.v3.xml
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Core.pdb
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.Core.xml
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.PlatformServices.pdb
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Google.Apis.PlatformServices.xml
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\GoogleCalendarComm.pdb
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\log4net.xml
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\Zlib.Portable.xml
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.exe.manifest
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.application
+C:\Users\image\Documents\From David\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.JobChartForm.resources
+O:\Spencer Obsitnik\WFCalendarApp\Archive\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.exe.config
+O:\Spencer Obsitnik\WFCalendarApp\Archive\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csproj.ResolveComReference.cache
+O:\Spencer Obsitnik\WFCalendarApp\Archive\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.exe
+O:\Spencer Obsitnik\WFCalendarApp\Archive\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.pdb
+O:\Spencer Obsitnik\_dev\WFCalendarApp\Archive\Google Calendar App\WFCalendarApp\WFCalendarApp\bin\Debug\WFCalendarApp.exe.config
+O:\Spencer Obsitnik\_dev\WFCalendarApp\Archive\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.csproj.ResolveComReference.cache
+O:\Spencer Obsitnik\_dev\WFCalendarApp\Archive\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.exe
+O:\Spencer Obsitnik\_dev\WFCalendarApp\Archive\Google Calendar App\WFCalendarApp\WFCalendarApp\obj\Debug\WFCalendarApp.pdb
