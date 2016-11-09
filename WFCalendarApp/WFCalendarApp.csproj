@@ -157,12 +157,6 @@
     <Compile Include="Forms\AreYouSure.Designer.cs">
       <DependentUpon>AreYouSure.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\GroupEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\GroupEdit.Designer.cs">
-      <DependentUpon>GroupEdit.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\GroupSearch.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -206,9 +200,6 @@
     <Compile Include="Models\TimePeriod.cs" />
     <EmbeddedResource Include="Forms\AreYouSure.resx">
       <DependentUpon>AreYouSure.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GroupEdit.resx">
-      <DependentUpon>GroupEdit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\GroupSearch.resx">
       <DependentUpon>GroupSearch.cs</DependentUpon>

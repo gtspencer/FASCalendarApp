@@ -88,7 +88,7 @@ namespace WFCalendarApp {
             //opens Group Search form if selected, else assume normal process
             if (groupSearch)
             {
-                (new GroupSearch(data, timePeriods, start, end)).Show();
+                (new GroupSearch(timePeriods, start, end)).Show();
             } else
             {
                 // Create the chart: save as image and open in new window
@@ -254,7 +254,6 @@ namespace WFCalendarApp {
         //----------------------------------------------------------Mostly Useless------------------------------------------------------------------------
         private void MainForm_Load(object sender, EventArgs e)
         {
-
             libLink.Links.Remove(libLink.Links[0]);
             libLink.Links.Add(0, libLink.Text.Length, "www.google.com/calendar");
         }
@@ -277,11 +276,9 @@ namespace WFCalendarApp {
         }
         private void toolTip1_Popup(object sender, PopupEventArgs e)
         {
-
         }
         private void label2_Click(object sender, EventArgs e)
         {
-
         }
         /// <summary>
         /// Sets the directory when the user selects one from the file browser
@@ -308,7 +305,6 @@ namespace WFCalendarApp {
             if (groupBox.Checked)
             {
                 groupSearch = true;
-
                 jobNumberText.Enabled = false;
                 todayCheckBox.Enabled = false;
                 inOfficeCheck.Enabled = false;
@@ -317,7 +313,6 @@ namespace WFCalendarApp {
             else if (!groupBox.Checked)
             {
                 groupSearch = false;
-
                 jobNumberText.Enabled = true;
                 todayCheckBox.Enabled = true;
                 inOfficeCheck.Enabled = true;
@@ -326,7 +321,6 @@ namespace WFCalendarApp {
             else
             {
                 groupSearch = false;
-
                 jobNumberText.Enabled = true;
                 todayCheckBox.Enabled = true;
                 inOfficeCheck.Enabled = true;
@@ -346,6 +340,7 @@ namespace WFCalendarApp {
         }
 
         //----------------------------------------------------------Completely Useless--------------------------------------------------------------------
+        /**
         /// <summary>
         /// Sets the directory when the user selects one from the file browser
         /// dialog (which will change the text in this field).
@@ -356,7 +351,7 @@ namespace WFCalendarApp {
         {
             //directory = directoryDisplay.Text;
         }
-        /**
+
         private void directoryCheck_CheckedChanged(object sender, EventArgs e)
         {
 
@@ -371,9 +366,9 @@ namespace WFCalendarApp {
                 directoryDisplay.Hide();
                 chooseDirectoryButton.Hide();
             }
-            
+    
         }
-    */
+
         /// <summary>
         /// Displays a folder browser dialog that allows the user to select a directory.
         /// </summary>
@@ -387,14 +382,12 @@ namespace WFCalendarApp {
                 directory = folderDialog.SelectedPath;
                 //directoryDisplay.Text = directory;
             }
-        }
+        }*/
         private void endDateLabel_Click(object sender, EventArgs e)
         {
-
         }
         private void startDateLabel_Click(object sender, EventArgs e)
         {
-
         }
     }
 }

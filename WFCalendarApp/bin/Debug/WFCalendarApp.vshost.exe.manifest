@@ -210,14 +210,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WFCalendarApp.exe" size="2676648">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WFCalendarApp.exe" size="2304936">
       <assemblyIdentity name="WFCalendarApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>aCDCYhU1F5JzBAbm1FyfkseugRK2ypVhX5WvO/OZ1UU=</dsig:DigestValue>
+        <dsig:DigestValue>TqfWUb6J0JsBRLliXY6933TwbA6wfk2+g8frG4hKftI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
